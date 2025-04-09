@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API CEP</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    </style>
+</head>
+<body>
+    <span id="message"></span>
+    <form>
+        <div class="mb-3">
+            <label for="cep">CEP</label>
+            <input id="cep" type="text">
+          <div id="cepfind" class="form-text">Encontre seu enderço</div>
+        </div>
+        <button id="buscarCep" type="button" class="btn btn-primary">Encontrar</button>
+        <div class="mb-3">
+          <label for="logradouro">Logradouro</label>
+          <input type="text" id="logradouro" placeholder="Logradouro">
+        </div>
+        <div class="mb-3 form-check">
+            <label for="numero">Número</label>
+            <input type="text" id="numero" placeholder="Número">
+        </div>
+        <div>
+        <label for="complemento">Complemento</label>
+            <input id="complemento" type="text">
+        </div>
+        <div>
+            <label for="bairro">Bairro</label>
+            <input type="text" id="bairro" placeholder="Bairro">
+        </div>
+        <div>
+            <label for="telefone">Telefone</label>
+            <input id="telefone" type="text">
+        </div>
+        <div>
+            <label for="cidade">Cidade</label>
+            <input type="text" id="cidade" placeholder="Cidade">
+        </div>
+        
+      </form>
+
+      <script src="js/main.js"></script>
+
+</body>
+</html>
+
